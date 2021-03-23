@@ -1,0 +1,106 @@
+f=@(x)(sin((5*pi).*x));
+quadcomptrap(f,0,1,2)
+
+ans =
+
+   0.500000000000000
+
+quadcomptrap(f,0,1,3)
+
+ans =
+
+  -0.577350269189626
+
+quadcomptrap(f,0,1,4)
+
+ans =
+
+  -0.103553390593274
+
+quadcomptrap(f,0,1,5)
+
+ans =
+
+    -3.430248998885766e-16
+
+quadcomptrap(f,0,1,6)
+
+ans =
+
+   0.044658198738520
+
+quadcomptrap(f,0,1,7)
+
+ans =
+
+   0.068796374115361
+
+quadcomptrap(f,0,1,8)
+
+ans =
+
+   0.083522329739912
+
+quadcomptrap(f,0,1,10)
+
+ans =
+
+   0.100000000000000
+
+quadcomptrap(f,0,1,11)
+
+ans =
+
+   0.104914683684819
+
+quadcomptrap(f,0,1,12)
+
+ans =
+
+   0.108602114403434
+
+quadcomptrap(f,0,1,20)
+
+ans =
+
+   0.120710678118655
+
+quadcomptrap(f,0,1,25)
+
+ans =
+
+   0.123107341487010
+
+quadcomptrap(f,0,1,40)
+
+ans =
+
+   0.125683487303146
+
+quadcomptrap(f,0,1,60)
+
+ans =
+
+   0.126595901878752
+
+% Using k=5 here bute the answer exact integral will be 2/(pi*k) no matter the choice of constant k.
+% The error seems to be particularly bad at n=k, but the approximations seems
+% to improve at higher numbers of subintervals
+quadcomptrap(f,0,1,100)
+
+ans =
+
+   0.127062047361747
+
+% According to the book, a periodic function such as this should converge faster than any power of h,
+% since its rate of convergence is faster than any power of h.
+% I'm assuming that this only holds if n > k sumbintervals since smaller subintervals seem to be ineffective.
+% After graphing this, I see that intervals of n=5 intersect the roots of f(x) on this interval.
+% Since the function is changing sign on either side of every suinterval, I believe it's causing lots of error
+quadcomptrap(f,0,1,500)
+
+ans =
+
+   0.127313482325743
+
+diary off

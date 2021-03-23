@@ -1,0 +1,92 @@
+f=@(x)(exp(x));
+quadromberg(f,0,1,3)
+
+ans =
+
+   1.718282687924757
+
+quadromberg(f,0,1,4)
+
+ans =
+
+   1.718281828794530
+
+quadromberg(f,0,1,5)
+
+ans =
+
+   1.718281828459079
+
+% correct to 13 decimal places at this point
+quadromberg(f,0,1,4)
+
+ans =
+
+   1.718281828794530
+
+% correct to 9 decimal places here
+% J = 3 is correct to 5 places.
+% This is to be expected since the alogithm should be accurate to order 2J
+% Thus, the order of accuracy is consistent with the definitions
+quadromberg(f,0,1,8)
+
+ans =
+
+   1.718281828459044
+
+% This, however, is accurate to 14 decimal places, or 15 digits because of roundoff error
+% You would expect it to exhibit higher accuracy, but machine precision affects output
+f=@(x)(1/(1+x.^2))
+
+f =
+
+  <a href="matlab:helpPopup function_handle" style="font-weight:bold">function_handle</a> with value:
+
+    @(x)(1/(1+x.^2))
+
+quadromberg(f,0,1,3)
+
+ans =
+
+   0.785529411764706
+
+quadromberg(f,0,1,4)
+
+ans =
+
+   0.785396445940468
+
+quadromberg(f,0,1,5)
+
+ans =
+
+   0.785398166319429
+
+% accurate to 4, 6, and 9 digits respectively. This is more consistent with the order of accuracy than before
+f = @(x)(x.^(1/2));
+quadromberg(f,0,1,3)
+
+ans =
+
+   0.657756603281562
+
+quadromberg(f,0,1,4)
+
+ans =
+
+   0.663607569112292
+
+quadromberg(f,0,1,5)
+
+ans =
+
+   0.665592865129466
+
+quadromberg(f,0,1,6)
+
+ans =
+
+   0.666287699033841
+
+% This one is converging very slowly. I suspect that it is because the order of accuracy may be sqrt(2J)
+diary off

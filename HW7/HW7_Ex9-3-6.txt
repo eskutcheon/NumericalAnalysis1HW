@@ -1,0 +1,233 @@
+f=@(x)(1/(1+x^2));
+a=-5; b=5;
+quadnewtoncotes(f,a,b,1)
+   0.384615384615385
+
+
+ans =
+
+   0.384615384615385
+
+quadnewtoncotes(f,a,b,2)
+   0.384615384615385
+
+
+ans =
+
+   0.384615384615385
+
+quadnewtoncotes(f,a,b,3)
+   6.794871794871797
+
+
+ans =
+
+   6.794871794871797
+
+quadnewtoncotes(f,a,b,4)
+   2.081447963800906
+
+
+ans =
+
+   2.081447963800906
+
+quadnewtoncotes(f,a,b,5)
+   2.374005305039785
+
+
+ans =
+
+   2.374005305039785
+
+% I believe this will be closest to the definite integral from previous testing
+quadnewtoncotes(f,a,b,6)
+   2.307692307692312
+
+
+ans =
+
+   2.307692307692312
+
+quadnewtoncotes(f,a,b,7)
+   3.870448673470798
+
+
+ans =
+
+   3.870448673470798
+
+quadnewtoncotes(f,a,b,8)
+   2.898994409748385
+
+
+ans =
+
+   2.898994409748385
+
+% I believe this will be closest to the definite integral from previous testing
+quadnewtoncotes(f,a,b,9)
+   1.500488907127884
+
+
+ans =
+
+   1.500488907127884
+
+quadnewtoncotes(f,a,b,10)
+   2.398617897841855
+
+
+ans =
+
+   2.398617897841855
+
+quadnewtoncotes(f,a,b,11)
+   4.673300555653288
+
+
+ans =
+
+   4.673300555653288
+
+quadnewtoncotes(f,a,b,12)
+   3.244772940278373
+
+
+ans =
+
+   3.244772940278373
+
+quadnewtoncotes(f,a,b,13)
+  -0.312936515752957
+
+
+ans =
+
+  -0.312936515752957
+
+quadnewtoncotes(f,a,b,14)
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('polyfit', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m', 79)" style="font-weight:bold">polyfit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\polyfun\polyfit.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('makelagrange', 'C:\Users\Jacob\Documents\MATLAB\makelagrange.m', 17)" style="font-weight:bold">makelagrange</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\makelagrange.m',17,0)">line 17</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpweights', 'C:\Users\Jacob\Documents\MATLAB\interpweights.m', 13)" style="font-weight:bold">interpweights</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpweights.m',13,0)">line 13</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpquad', 'C:\Users\Jacob\Documents\MATLAB\interpquad.m', 10)" style="font-weight:bold">interpquad</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\interpquad.m',10,0)">line 10</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadnewtoncotes', 'C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m', 11)" style="font-weight:bold">quadnewtoncotes</a> (<a href="matlab: opentoline('C:\Users\Jacob\Documents\MATLAB\quadnewtoncotes.m',11,0)">line 11</a>)] 
+   1.919797216831594
+
+
+ans =
+
+   1.919797216831594
+
+% At 14 nodes, it becomes ill-conditioned. There does not exist any Newton-Cotes quadrature, 
+% such that there are all nonnegative weights for n >= 11. These negative weights on cause the
+% inaccuracy of the approximtion for higher-order rules. The inaccuracy in estimating equally-spaced
+% points on the interval [a,b] comes from a increasingly severe roundoff error in the nodes
+diary off
